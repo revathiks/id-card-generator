@@ -1,0 +1,75 @@
+.document-reader img{
+    border: 1px solid #CCC;
+
+}
+.page-number{
+    margin-bottom: 20px;
+}
+
+.dragSigners, .dragMe{
+    margin: 5px;
+    padding: 5px;
+    background: #2E2E33;
+    color: #FFF;
+    text-align: center;
+    border-radius: 3px;
+    cursor: move;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+.dragSigners{
+    z-index: 999;
+}
+.dragMe{
+    position: relative;
+}
+.closeIt{
+    background: #FFF;
+    color: #111;
+    padding: 0 2px;
+    cursor: pointer;
+}
+/*end responsive iframe*/
+
+/*table rows color*/
+.even{background-color: #F5F5F5;}
+/*end table rows color*/
+
+.error{
+    color: red;
+    font-size: 12px;
+}
+
+#handwriting_scroll {
+    height: 100px;
+    position: relative;
+    overflow: auto;
+}
+
+.signature-section{
+    border-left: 1px solid blue;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+.signature-section img{
+    max-width: 75px;
+}
+
+.main-wrapper{
+   /* max-height: 600px;
+    overflow: auto;*/s
+}
+
+
+.document-content{
+    position: relative;
+   /* left: 325px;*/
+}
+.drop-area {
+    background-color:#afd1b2;
+}
+.hideIt {
+    visibility: hidden;
+}

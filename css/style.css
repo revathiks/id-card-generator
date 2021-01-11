@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.main-wrapper {
+	min-height: 100%;
+	margin-bottom: -54px;
+}
+
+.fa-file-download{
+	font-size: 20px;
+}
+.error{    
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color:#dc3545;
+    margin-bottom: 30px;
+}
+.table{ margin-left: -73px;}
+	td label{font-weight: bold;}
+	.edit_table{
+		width: 110%;
+		margin-left: 20px;
+	}
+.page-footer {
+	height: 54px;
+}
+.content-wrapper{
+	margin-top:20px;
+}
+#show_checkbox .form-check{
+    position: relative;
+    padding-left: 1.25rem;
+    width: 30.333333%;
+    float: left;
+}
+.view-btn{
+	    left: 40px;
+}
+.loginbtn{
+	margin: 0px;
+    padding: 10px 2.14rem;
+}
+.center_div{
+    margin: 0 auto;
+    width:80% /* value of your choice which suits your alignment */
+}
+.mid-wpr.align-top{
+	margin-top: 50px;
+}
